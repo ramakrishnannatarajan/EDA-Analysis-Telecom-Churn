@@ -63,12 +63,22 @@ Initial findings show an overall churn rate of 26.58%, serving as our base targe
 **Key Insights: Unveiling Churn Patterns through Bivariate Analysis**
 
 - Customers with less than 1 year of tenure (47.68%), especially with fiber optic services (29.61% more) and paperless billing (24.19% more), are more likely to churn.
+
+![Bivariate_1a](Data/Images/Tenure_vs_InternetService.png)
+![Bivariate_1b](Data/Images/Tenure_vs_PaperlessBilling.png)
+
 - Users selecting electronic check payments (45.29%), particularly without tech support (26.67% more) and choosing fiber optic, amplify vulnerability.
+  
+![Bivariate_2](Data/Images/Payment_Method_Tech_Support.png)
+
 - Month-to-month contract subscribers (42.71%), especially with fiber optic services, reveal an increasing churn pattern; females in this group are 2.05% more likely to churn than males.
 - Senior Citizens exhibit a relatively higher churn rate of 41.68%, particularly with a contract less than a year and in the absence of a partner.
 - Customers without online backup (39.94%) and security (41.78%) play a major role in churn, with a 28.42% higher likelihood compared to users with online security and no online backup.
 - Customers without device protection (39.14%), especially with fiber optic services, and without partners (14.43% more) and dependents (16.75% more), are more inclined to churn.
 - Customers without partners (32.98%), females in this group are 2.91% more likely to churn than males.
+  
+![Bivariate_3](Data/Images/Gender_vs_Partner.png)
+
 - Customers not streaming movies (33.73%), particularly with fiber optic services (23.38% more) and without partners (14.64% more), are more likely to churn. Additionally, customers not streaming both movies and TV have a 2.65% higher likelihood of churning compared to users streaming TV and not movies.
 
 ## Next Steps: Predictive Analytics
